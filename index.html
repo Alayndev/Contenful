@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contentful</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <script async src="./index.js"></script>
+  </head>
+  <body>
+    <!-- 09:30 -->
+    <section class="portfolio">
+      <div class="portfolio-container-title-description">
+        <h2 class="portfolio-title">Portfolio</h2>
+        <p class="portfolio-description">
+          Algo que quieras decir sobre tu portfolio.
+        </p>
+      </div>
+
+      <!-- Un container para todos los cards que es "portfolio-content". Otro container para cada card/item que es "portfolio-card" (en el template). Otro container para lo que está debajo de la imagen en el layout, para que sea más sencilo ponerle el padding, alinear, etc. (en el template)-->
+      <div class="portfolio-content"></div>
+    </section>
+
+    <!-- 32:00 -->
+    <template id="template-portfolio-card">
+      <div class="portfolio-card">
+        <img class="portfolio-card-img" src="" alt="" />
+        <div class="portfolio-card-content">
+          <h4 class="portfolio-card-title"></h4>
+          <p class="portfolio-card-description"></p>
+          <a href="" class="portfolio-card-link" target="_blank">Ver más</a>
+        </div>
+      </div>
+    </template>
+  </body>
+</html>
